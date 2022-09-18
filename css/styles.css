@@ -42,7 +42,7 @@ body{
 .container form{
     position: relative;
     margin-top: 16px;
-    min-height: 490;
+    min-height: 490px;
     background-color: #f2f2f2;
 }
 .container forms .details{
@@ -69,7 +69,7 @@ form .fields .input-field{
     margin: 4px 0;
 }
 .input-field label{
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 500;
     color: #2e2e2e;
 }
@@ -86,4 +86,26 @@ form .fields .input-field{
 }
 .input-field input:is(:focus, :valid){
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.13);
+}
+.container form button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    max-width: 200px;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 5px;
+    margin: 25px 0;
+    background-color: #4070f4;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: #265df2;
+}
+form button i{
+    margin: 0 6px;
 }
