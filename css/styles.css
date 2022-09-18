@@ -1,5 +1,5 @@
 /* ======= Google Font Import - Poppins ======= */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:width@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -20,9 +20,8 @@ body{
     border-radius: 6px;
     padding: 30px;
     margin: 0 15px;
-    background-color: #ffff;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
-
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 .container header{
     position: relative;
@@ -30,7 +29,6 @@ body{
     font-weight: 600;
     color: #333;
 }
-
 .container header::before{
     content: "";
     position: absolute;
@@ -44,16 +42,16 @@ body{
 .container form{
     position: relative;
     margin-top: 16px;
-    min-height: 490px;
+    min-height: 490;
     background-color: #f2f2f2;
 }
-.container form .details{
+.container forms .details{
     margin-top: 10px;
 }
 .container form .title{
     font-size: 16px;
     font-weight: 500;
-    margin: 6px, 0;
+    margin: 6px 0;
     color: #333;
 }
 .container form .fields{
@@ -61,18 +59,9 @@ body{
     align-items: center;
     justify-content: space-between;
 }
-forms .fields .input-field{ 
+form .fields .input-field{
     display: flex;
     width: calc(100% / 3 - 15px);
     flex-direction: column;
-}
-.input-field label{
-    font-size: 12px;
-    font-weight: 500;
-    color: #2e2e2e;
-}
-.input-field input{
-    height: 42px;
-    margin: 8px 0;
-
+    background-color: red;
 }
